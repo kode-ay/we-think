@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        grad: "var(--background)",
+      },
       backgroundColor: {
         btn: "var(--button)",
       },
