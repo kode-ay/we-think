@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <header className="px-20 py-6 pt-32 flex justify-between items-start flex-wrap">
+    <header className="px-20 py-6 pt-32 flex justify-between items-start flex-wrap max-h-screen">
       <div className="text flex flex-col gap-9 items-start">
         <h1 className="font-head text-6xl font-bold max-w-2xl">
           We kids can equally be creative
@@ -19,7 +19,7 @@ export default function Hero() {
           Contact Me
         </Link>
       </div>
-      <Image src="/enola/Girl with telescope.svg" width={300} height={300} className='flex-1' />
+      <Image src="/enola/Girl with telescope.svg" width={300} height={300} className='flex-1 max-h-full' />
     </header>
   );
 }
