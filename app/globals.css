@@ -8,8 +8,5 @@
   --background-end-rgb: 255, 255, 255;
   --button: #5E239D;
   --background: linear-gradient(90deg, #09090A 0%, #181719 47.57%, #36343B 126.85%, #39363D 126.85%);
-}
-
-body {
-  
+  --hero-background: linear-gradient(90deg, #5E239D 0.13%, #FBB453 100%);
 }
