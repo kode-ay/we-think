@@ -8,10 +8,14 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        "btn": "var(--button)",
+        btn: "var(--button)",
       },
       colors: {
-        "pur": "var(--button)",
+        pur: "var(--button)",
+      },
+      fontFamily: {
+        head: "Inter",
+        para: "Montserrat",
       },
     },
   },
