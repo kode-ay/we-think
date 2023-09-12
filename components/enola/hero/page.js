@@ -18,8 +18,17 @@ export default function Hero() {
         >
           Contact Me
         </Link>
+        <div className="peops">
+          <div className="imgs"></div>
+          <span>Draw Every Other Child Closer</span>
+        </div>
       </div>
-      <Image src="/enola/Girl with telescope.svg" width={300} height={300} className='flex-1 max-h-full' />
+      <Image
+        src="/enola/Girl with telescope.svg"
+        width={300}
+        height={300}
+        className="flex-1 max-h-full"
+      />
     </header>
   );
 }
