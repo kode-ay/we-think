@@ -6,8 +6,8 @@ import { Roboto } from 'next/font/google'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 const inter = Inter({ subsets: ['latin'] })
-// const roboto_condensed = Roboto_Condensed({ subsets: ['latin'], weight: })
-// const roboto = Roboto({ subsets: ['latin'], weight: })
+const roboto_condensed = Roboto_Condensed({ subsets: ['latin'], weight: ['700'] })
+const roboto = Roboto({ subsets: ['latin'], weight: ['700']})
 
 export const metadata = {
   title: 'We Think',

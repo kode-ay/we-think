@@ -19,6 +19,8 @@ module.exports = {
       fontFamily: {
         head: "Inter",
         para: "Montserrat",
+        main: "Roboto",
+        mainSlim: "Roboto Condensed",
       },
     },
   },

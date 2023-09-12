@@ -6,16 +6,18 @@ export default function Home() {
     <main className="px-40 py-20 flex justify-between items-center h-screen bg-grad text-white">
       <div className="text flex flex-col justify-between items-start h-full max-w-lg">
         <Image src="/we think/we think.png" width={192} height={62} />
-        <h1 className="font-bold text-7xl">cool projects for you!</h1>
-        <ul className="links flex flex-col gap-8">
+        <h1 className="font-bold text-7xl font-mainSlim">cool projects for you!</h1>
+        <ul className="links flex flex-col gap-8 font-main">
           <li>
-            <Link href="/confiplay" className='opacity-70'>&gt; Confi-PLAY</Link>
+            <Link href="/confiplay" className='opacity-70 text-2xl'>&gt; Confi-PLAY</Link>
           </li>
           <li>
-            <Link href="/enola" className='opacity-70'>&gt; Enola</Link>
+            <Link href="/enola" className='opacity-70 text-2xl'>&gt; Enola</Link>
           </li>
         </ul>
-        <h3>welcome</h3>
+        <h3 className='px-12 py-5 font-bold text-5xl bg-white bg-opacity-5 rounded-full font-mainSlim'>
+          <span className='text-pur'>&lt;</span>welcome<span className='text-pur'>/&gt;</span>
+        </h3>
       </div>
       {/* <h1 className="flex items-center gap-2 p-5 justify-center text-2xl">
         <Image src="/we think/we think.png" width={200} height={200} />
