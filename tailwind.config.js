@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         grad: "var(--background)",
+        line: "var(--underline)",
       },
       backgroundColor: {
         btn: "var(--button)",
