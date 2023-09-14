@@ -2,9 +2,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Hero() {
+  const userImgs = '123456';
+
   return (
     <header className="px-20 py-6 pt-32 flex justify-between items-start flex-wrap max-h-screen">
-      <div className="text flex flex-col gap-9 items-start">
+      <div className="text flex flex-col gap-9 items-start justify-between">
         <h1 className="font-head text-6xl font-bold max-w-2xl">
           We kids can equally be creative
         </h1>
@@ -18,9 +20,19 @@ export default function Hero() {
         >
           Contact Me
         </Link>
-        <div className="peops">
-          <div className="imgs"></div>
-          <span>Draw Every Other Child Closer</span>
+        <div className="peops flex items-center mt-52">
+          <div className="imgs flex">
+            {userImgs.split("").map((img, i, x, ind = ['0', '5', '10', '20', '40', '60']) => (
+              <Image
+                className={`relative -left-${(ind[i])}`}
+                src={`/enola/user${img}.png`}
+                width={60}
+                height={60}
+              />
+            )) // 1 2 4 8       2 * i
+            }
+          </div>
+          <p className="font-para font-bold">Draw Every Other Child Closer</p>
         </div>
       </div>
       <Image
