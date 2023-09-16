@@ -29,7 +29,7 @@ export default function Hero() {
                 width={60}
                 height={60}
               />
-            )) // 1 2 4 8       2 * i
+            ))
             }
           </div>
           <p className="font-para font-bold">Draw Every Other Child Closer</p>

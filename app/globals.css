@@ -10,6 +10,9 @@
   --background: linear-gradient(90deg, #09090A 0%, #181719 47.57%, #36343B 126.85%, #39363D 126.85%);
   --hero-background: linear-gradient(90deg, #5E239D 0.13%, #FBB453 100%);
   --underline: linear-gradient(90deg, #000 0%, #5E239D 49.91%, #FFF 99.82%);
+  --grey: #E7E9E9;
+  --text: #002;
+  --bg-l: #effafc;
 }
 
 * {

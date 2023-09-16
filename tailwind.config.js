@@ -13,9 +13,12 @@ module.exports = {
       },
       backgroundColor: {
         btn: "var(--button)",
+        lite: "var(--bg-l)",
       },
       colors: {
         pur: "var(--button)",
+        grey: "var(--grey)",
+        text: "var(--text)",
       },
       fontFamily: {
         head: "Inter",

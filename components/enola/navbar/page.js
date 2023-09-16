@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function NavBar() {
   return (
-    <nav className="z-50 px-20 py-6 flex justify-between items-center fixed w-screen box-border bg-white">
+    <nav className="z-50 px-20 py-6 flex justify-between items-center fixed w-screen box-border bg-white border-b-2 border-grey">
       <Image src="/enola/enola.png" width={94} height={28} />
       <ul className="links flex items-center gap-3">
         <Link href="/" className='font-bold p-4'>About</Link>
