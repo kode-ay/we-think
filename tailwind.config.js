@@ -10,15 +10,22 @@ module.exports = {
       backgroundImage: {
         grad: "var(--background)",
         line: "var(--underline)",
+
+        bg: "var(--bg)",
       },
       backgroundColor: {
         btn: "var(--button)",
         lite: "var(--bg-l)",
+
+        fg: "var(--fg)",
       },
       colors: {
         pur: "var(--button)",
         grey: "var(--grey)",
         text: "var(--text)",
+
+        prim: "var(--main)",
+        lt: "var(--fg)",
       },
       fontFamily: {
         head: "Inter",
