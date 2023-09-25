@@ -7,7 +7,6 @@ export default function Navbar() {
   const navRef = useRef(null);
   const [posi, setPosi] = useState(false);
   window.addEventListener("scroll", () => {
-    // console.log(navRef.current.getBoundingClientRect().top);
     if (navRef.current.getBoundingClientRect().top <= 0)
       setPosi(true);
     else 
